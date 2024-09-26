@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <title>Registrar un libro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        form {
+            width: 50%;
+            margin: 40px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input, textarea {
+            width: 95%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+        }
+    .btn {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h2>Agrega tus libros</h2>
+        <label for="titulo">Titulo:</label>
+        <input type="text" id="titulo" name="titulo" required>
+
+        <label for="autor">Autor:</label>
+        <input type="text" id="autor" name="autor" required>
+
+        <label for="genero">Genero:</label>
+        <input type="text" id="genero" name="genero" required>
+
+        <label for="editorial">Editorial:</label>
+        <input type="text" id="editorial" name="editorial" required>
+
+        <label for="sinopsis">Sinopsis:</label>
+        <textarea id="sinopsis" name="sinopsis" required></textarea>
+
+        <label for="fecha_publicacion">Fecha de publicaion:</label>
+        <input type="date" id="fecha_publicacion" name="fecha_publicacion" required>
+
+        <label for="estado">Estado:</label>
+        <input type="text"" id="estado" name="estado" required>
+
+        <input type="submit" class="btn" value="Agregar libro">
+    </form>
+</body>
+</html>
